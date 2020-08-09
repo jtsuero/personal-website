@@ -37,6 +37,7 @@
   height: 3px;
   background-color: rgb(226, 226, 226);
   margin: 5px;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 768px) {
@@ -47,7 +48,7 @@
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 8vh;
+    top: 6vh;
     background-color: #003366;
     display: flex;
     flex-direction: column;
@@ -57,13 +58,19 @@
     transition: transform 0.5s ease-in;
   }
 
-  .navbar-links li {
-    opacity: 0;
-  }
-
   .burger {
     display: block;
     cursor: pointer;
+  }
+
+  .line1.active {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .line2.active {
+    opacity: 0;
+  }
+  .line3.active {
+    transform: rotate(45deg) translate(-5px, -6px);
   }
 }
 
