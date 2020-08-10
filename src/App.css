@@ -40,6 +40,15 @@
   transition: all 0.3s ease;
 }
 
+.resume-container {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-pdf {
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
