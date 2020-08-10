@@ -16,6 +16,15 @@ function App() {
           <Route path="/resume">
             <ResumePage />
           </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/" exact>
+            <Home />
+          </Route>
         </Switch>
       </div>
     </Router>
