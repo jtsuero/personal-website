@@ -17,9 +17,14 @@
   display: flex;
   justify-content: space-around;
   width: 35%;
+  z-index: 100;
+}
+
+.navbar-links a {
+  text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-  z-index: 100;
+  color: rgb(226, 226, 226);
 }
 
 .name {
