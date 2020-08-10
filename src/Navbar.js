@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Link, withRouter} from 'react-router-dom';
 
 class Navbar extends Component {
   constructor() {
@@ -25,7 +25,7 @@ class Navbar extends Component {
       line3 += ' active';
     }
     return (
-      <Router>
+      <div>
         <ul className={cls}>
           <li>
             <Link to="/">Home</Link>
@@ -45,7 +45,7 @@ class Navbar extends Component {
           <div className={line2}></div>
           <div className={line3}></div>
         </div>
-      </Router>
+      </div>
     );
   };
 
@@ -59,4 +59,4 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default withRouter(Navbar);
