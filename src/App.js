@@ -1,24 +1,23 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Navbar from './Navbar.js';
 import About from './About.js';
+import Home from './Home.js';
+import Projects from './Projects.js';
 import ResumePage from './ResumePage.js';
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <div className="App">
-          <Navbar />
-          <Route path="/about">
-            <About />
-          </Route>
+      <div className="App">
+        <Navbar />
+        <Switch>
           <Route path="/resume">
             <ResumePage />
           </Route>
-        </div>
-      </Switch>
+        </Switch>
+      </div>
     </Router>
   );
 }
