@@ -9,8 +9,8 @@ class Home extends Component {
         <div className="headshot">
           <img src={headshot} alt="" />
         </div>
-        <div className="home-name">Hey, I'm Jordan</div>
-        <div className="home-header">Self taught Full Stack Engineer</div>
+        <div className="home-name">Self Taught Developer</div>
+        <div className="home-header">Full Stack Engineer</div>
         <div className="home-intro">
           I have always had a love for programming. Although my professional
           career has been focused on Project Management and Training, there has

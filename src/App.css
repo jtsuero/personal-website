@@ -48,7 +48,7 @@
   align-items: center;
   height: 8vh;
   font-family: 'Montserrat', sans-serif;
-  background-color: #003366;
+  background-color: #123c69;
 }
 
 .contact-buttons {
@@ -62,6 +62,7 @@
 
 .contact-buttons span {
   margin: 0.5rem;
+  color: #123c69;
 }
 
 .contact-buttons div {
@@ -71,14 +72,26 @@
 
 .email-logo {
   font-size: 1.5rem;
+  background-color: #ac3b61;
+  color: rgb(226, 226, 226);
+  padding: 0.5rem;
+  border-radius: 50%;
 }
 
 .linkedin-logo {
   font-size: 1.5rem;
+  background-color: #ac3b61;
+  color: rgb(226, 226, 226);
+  padding: 0.5rem;
+  border-radius: 50%;
 }
 
 .github-logo {
   font-size: 1.5rem;
+  background-color: #ac3b61;
+  color: rgb(226, 226, 226);
+  padding: 0.5rem;
+  border-radius: 50%;
 }
 
 .navbar-links {
@@ -134,7 +147,7 @@
     right: 0px;
     height: 92vh;
     top: 6vh;
-    background-color: #003366;
+    background-color: #123c69;
     display: flex;
     flex-direction: column;
     align-items: center;
