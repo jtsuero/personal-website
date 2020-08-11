@@ -22,14 +22,14 @@ class ContactButtons extends Component {
             <FontAwesomeIcon icon={faLinkedin} className="linkedin-logo" />
           </a>
           <a href="https://www.linkedin.com/in/jtsuero">
-            https://www.linkedin.com/in/jtsuero
+            linkedin.com/in/jtsuero
           </a>
         </div>
         <div>
           <a href="https://github.com/jtsuero">
             <FontAwesomeIcon icon={faGithub} className="github-logo" />
           </a>
-          <a href="https://github.com/jtsuero">https://github.com/jtsuero</a>
+          <a href="https://github.com/jtsuero">github.com/jtsuero</a>
         </div>
       </div>
     );
