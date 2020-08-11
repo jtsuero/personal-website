@@ -22,18 +22,24 @@
 
 .home-name {
   font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
   padding: 1.5rem 0;
+  color: #123c69;
 }
 
 .home-header {
   font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
   padding: 1rem;
+  color: #ac3b61;
 }
 
 .home-intro {
   font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
   width: 50%;
   padding: 1rem;
+  color: #123c69;
 }
 
 .navbar {
