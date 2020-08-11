@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import headshot from './headshot.jpeg';
+import ContactButtons from './ContactButtons.js';
 
 class Home extends Component {
   render() {
@@ -16,6 +17,7 @@ class Home extends Component {
           always been a part of me itching to program. I am hungry to work on
           interesting projects and work with teams that iterate quickly.
         </div>
+        <ContactButtons />
       </div>
     );
   }

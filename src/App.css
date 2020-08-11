@@ -45,6 +45,36 @@
   background-color: #003366;
 }
 
+.contact-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: absolute;
+  padding: 4rem;
+  bottom: 0;
+}
+
+.contact-buttons span {
+  margin: 0.5rem;
+}
+
+.contact-buttons div {
+  display: flex;
+  align-items: center;
+}
+
+.email-logo {
+  font-size: 1.5rem;
+}
+
+.linkedin-logo {
+  font-size: 1.5rem;
+}
+
+.github-logo {
+  font-size: 1.5rem;
+}
+
 .navbar-links {
   color: rgb(226, 226, 226);
   list-style: none;
