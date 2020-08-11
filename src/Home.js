@@ -9,13 +9,16 @@ class Home extends Component {
         <div className="headshot">
           <img src={headshot} alt="" />
         </div>
-        <div className="home-name">Self Taught Developer</div>
-        <div className="home-header">Full Stack Engineer</div>
+        <div className="home-name">
+          Full Stack Engineer based in Seattle, WA
+        </div>
+        <div className="home-header">I want to make cool products</div>
         <div className="home-intro">
-          I have always had a love for programming. Although my professional
-          career has been focused on Project Management and Training, there has
-          always been a part of me itching to program. I am hungry to work on
-          interesting projects and work with teams that iterate quickly.
+          Although my professional career has been focused on Project Management
+          and Training, there has always been an itch to program. While working
+          I built my skillset through multiple personal projects and a
+          supportive team of engineers. I am hungry to work on interesting
+          projects and work with teams that iterate quickly.
         </div>
         <ContactButtons />
       </div>
