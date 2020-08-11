@@ -60,9 +60,10 @@
   bottom: 0;
 }
 
-.contact-buttons span {
+.contact-buttons a {
   margin: 0.5rem;
   color: #123c69;
+  text-decoration: none;
 }
 
 .contact-buttons div {

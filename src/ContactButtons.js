@@ -12,16 +12,24 @@ class ContactButtons extends Component {
     return (
       <div className="contact-buttons">
         <div>
-          <FontAwesomeIcon icon={faEnvelope} className="email-logo" />
-          <span>jtsuero@gmail.com</span>
+          <a href={'mailto:jtsuero@gmail.com'}>
+            <FontAwesomeIcon icon={faEnvelope} className="email-logo" />
+          </a>
+          <a href={'mailto:jtsuero@gmail.com'}>jtsuero@gmail.com</a>
         </div>
         <div>
-          <FontAwesomeIcon icon={faLinkedin} className="linkedin-logo" />
-          <span>https://www.linkedin.com/in/jtsuero</span>
+          <a href="https://www.linkedin.com/in/jtsuero">
+            <FontAwesomeIcon icon={faLinkedin} className="linkedin-logo" />
+          </a>
+          <a href="https://www.linkedin.com/in/jtsuero">
+            https://www.linkedin.com/in/jtsuero
+          </a>
         </div>
         <div>
-          <FontAwesomeIcon icon={faGithub} className="github-logo" />
-          <span>https://github.com/jtsuero</span>
+          <a href="https://github.com/jtsuero">
+            <FontAwesomeIcon icon={faGithub} className="github-logo" />
+          </a>
+          <a href="https://github.com/jtsuero">https://github.com/jtsuero</a>
         </div>
       </div>
     );
