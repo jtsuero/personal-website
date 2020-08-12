@@ -1,24 +1,20 @@
 import React, {Component} from 'react';
-import headshot from './headshot.jpeg';
 import ContactButtons from './ContactButtons.js';
+import {Link, withRouter} from 'react-router-dom';
 
 class Home extends Component {
   render() {
     return (
       <div className="home-container">
-        <div className="headshot">
-          <img src={headshot} alt="" />
-        </div>
-        <div className="home-name">
-          Full Stack Engineer based in Seattle, WA
-        </div>
-        <div className="home-header">I want to make cool products</div>
+        <div className="home-background"></div>
+        <div className="home-background-black"></div>
         <div className="home-intro">
-          Although my professional career has been focused on Project Management
-          and Training, there has always been an itch to program. While working
-          I built my skillset through multiple personal projects and a
-          supportive team of engineers. I am hungry to work on interesting
-          projects and work with teams that iterate quickly.
+          <div className="home-name">
+            Full Stack Engineer based in Seattle, WA
+          </div>
+          <Link to="/projects" className="home-header">
+            I make cool products
+          </Link>
         </div>
         <ContactButtons />
       </div>
@@ -26,4 +22,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default withRouter(Home);
