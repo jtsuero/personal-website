@@ -6,9 +6,11 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 class ResumePage extends Component {
   render() {
     return (
-      <Document file={resume} className="resume-container">
-        <Page pageNumber={1} className="resume-pdf" />
-      </Document>
+      <div className="resume-container">
+        <Document file={resume} className="resume-document">
+          <Page pageNumber={1} className="resume-pdf" />
+        </Document>
+      </div>
     );
   }
 }

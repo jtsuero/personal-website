@@ -151,12 +151,17 @@
 }
 
 .resume-container {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(226, 226, 226);
   display: flex;
   justify-content: center;
 }
 
 .resume-pdf {
   margin-top: 20px;
+  border: 1px black solid;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 768px) {
