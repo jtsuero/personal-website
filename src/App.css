@@ -6,7 +6,7 @@
 
 .headshot {
   width: 100%;
-  padding: 5rem 0;
+  padding-top: 5rem;
 }
 
 .headshot img {
@@ -21,27 +21,47 @@
   justify-content: center;
 }
 
-.about-container {
-  width: 25%;
-  display: flex;
+.about-me-intro-container {
   padding: 1rem;
-  margin: 2rem;
-  justify-content: center;
-  align-items: center;
-  background-color: #edeae5;
-  border-radius: 15px;
-  box-shadow: 0 0 3px #ccc;
-  font-family: 'Montserrat', sans-serif;
 }
 
-.about-me-header {
-  color: orange;
+.about-me-name {
   font-size: 3rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
+  color: orange;
 }
 
-.skills-container {
+.about-me-title {
+  font-size: 1.5rem;
+  font-family: 'Catamaran', sans-serif;
+  color: #36454f;
+}
+
+.about-me-header {
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #36454f;
+}
+
+.skills-content {
+  height: 80%;
+  padding: 1rem;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-content img {
+  height: 5rem;
+}
+
+.about-container {
   width: 25%;
   display: flex;
   flex-wrap: wrap;
@@ -52,6 +72,7 @@
   background-color: #edeae5;
   border-radius: 15px;
   box-shadow: 0 0 3px #ccc;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .home-container {
@@ -290,6 +311,14 @@
   }
   .line3.active {
     transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  .about-skills-container {
+    flex-wrap: wrap;
+  }
+
+  .about-container {
+    width: 70%;
   }
 }
 
