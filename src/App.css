@@ -312,6 +312,11 @@
     overflow-x: hidden;
   }
 
+  .headshot img {
+    height: 30%;
+    width: 30%;
+  }
+
   .home-container {
     display: inherit;
   }
