@@ -16,7 +16,7 @@ class Projects extends Component {
       <div className="projects-container">
         <div className="projects-header">Projects</div>
         <div className="project-container">
-          <img src={justfood} alt=""></img>
+          <img src={justfood} alt="" className="mockup"></img>
           <div className="project-overview">
             <div className="project-name">Just Food</div>
             <div className="project-description">
@@ -34,7 +34,7 @@ class Projects extends Component {
           </div>
         </div>
         <div className="project-container">
-          <img src={flashy} alt=""></img>
+          <img src={flashy} alt="" className="mockup"></img>
           <div className="project-overview">
             <div className="project-name">Flashy</div>
             <div className="project-description">
@@ -49,7 +49,7 @@ class Projects extends Component {
           </div>
         </div>
         <div className="project-container">
-          <img src={cryptocheck} alt=""></img>
+          <img src={cryptocheck} alt="" className="mockup"></img>
           <div className="project-overview">
             <div className="project-name">Cryptocheck</div>
             <div className="project-description">
@@ -64,7 +64,7 @@ class Projects extends Component {
           </div>
         </div>
         <div className="project-container">
-          <img src={fresh} alt=""></img>
+          <img src={fresh} alt="" className="mockup"></img>
           <div className="project-overview">
             <div className="project-name">Fresh Reads</div>
             <div className="project-description">
