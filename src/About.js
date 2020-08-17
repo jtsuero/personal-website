@@ -25,9 +25,10 @@ class About extends Component {
             <div className="skills-content">
               Although my professional career has been focused on Project
               Management and Training, there has always been an itch to program.
-              While working, I built my skillset through multiple personal
-              projects and a supportive team of engineers. I am hungry to build
-              interesting projects and work with teams that iterate quickly.
+              While working at Genentech and Facebook, I built my skillset
+              through multiple personal projects and a supportive team of
+              engineers. I am hungry to build interesting projects and work with
+              teams that iterate quickly.
             </div>
           </div>
           <div className="about-container">
