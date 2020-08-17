@@ -39,16 +39,24 @@ class Navbar extends Component {
     return (
       <ul className={cls}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={this.toggleNav}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about" onClick={this.toggleNav}>
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/resume">Resume</Link>
+          <Link to="/resume" onClick={this.toggleNav}>
+            Resume
+          </Link>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects" onClick={this.toggleNav}>
+            Projects
+          </Link>
         </li>
       </ul>
     );
