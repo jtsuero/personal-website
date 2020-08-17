@@ -217,17 +217,31 @@
 }
 
 .resume-container {
-  height: 100%;
-  width: 100%;
-  background-color: rgb(226, 226, 226);
+  padding: 2rem;
+  margin: auto;
+  width: 65%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .resume-pdf {
-  margin-top: 20px;
-  border: 1px black solid;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-page {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.resume-page > .react-pdf__Page__textContent {
+  display: none;
+}
+
+.resume-page > canvas {
+  max-width: 100%;
+  height: auto !important;
 }
 
 .projects-container {
@@ -316,12 +330,11 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
+    display: none;
   }
 
   .navbar-links.active {
-    transform: translateX(0%);
+    display: inherit;
   }
 
   .burger {
@@ -360,4 +373,3 @@
     width: 100%;
   }
 }
-

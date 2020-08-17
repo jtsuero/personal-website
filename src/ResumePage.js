@@ -8,7 +8,7 @@ class ResumePage extends Component {
     return (
       <div className="resume-container">
         <Document file={resume} className="resume-document">
-          <Page pageNumber={1} className="resume-pdf" />
+          <Page pageNumber={1} className="resume-page" />
         </Document>
       </div>
     );
