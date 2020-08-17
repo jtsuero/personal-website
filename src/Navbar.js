@@ -57,7 +57,9 @@ class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-        <div className="name">Jordan Suero</div>
+        <Link to="/" className="name">
+          Jordan Suero
+        </Link>
         {this.navLinks()}
         {this.burger()}
       </div>

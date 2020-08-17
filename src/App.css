@@ -155,6 +155,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
+
 .contact-buttons a:hover {
   text-decoration: underline;
 }
@@ -188,6 +189,11 @@
   color: rgb(226, 226, 226);
 }
 
+.navbar-links a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
 .name {
   color: rgb(226, 226, 226);
   text-transform: uppercase;
@@ -195,6 +201,7 @@
   font-size: 17px;
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
+  text-decoration: none;
 }
 
 .burger {
