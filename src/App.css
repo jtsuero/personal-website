@@ -288,6 +288,11 @@
   height: 2rem;
 }
 
+.footer {
+  width: 100%;
+  padding: 5rem;
+}
+
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
