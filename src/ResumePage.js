@@ -10,12 +10,31 @@ class ResumePage extends Component {
       pageNumber: 1,
     };
   }
+
+  moveLeft = () => {
+    if (this.state.pageNumber === 1) return;
+    this.setState({pageNumber: 1});
+  };
+
+  moveRight = () => {
+    if (this.state.pageNumber === 2) return;
+    this.setState({pageNumber: 2});
+  };
+
   render() {
     return (
       <div className="resume-container">
         <Document file={resume} className="resume-document">
           <Page pageNumber={this.state.pageNumber} className="resume-page" />
           <p>Page {this.state.pageNumber} of 2</p>
+          <div className="button-container">
+            <div className="left-button" name="left" onClick={this.moveLeft}>
+              {'<'}
+            </div>
+            <div className="right-button" name="right" onClick={this.moveRight}>
+              {'>'}
+            </div>
+          </div>
         </Document>
       </div>
     );
