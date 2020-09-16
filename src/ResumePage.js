@@ -11,14 +11,12 @@ class ResumePage extends Component {
     };
   }
 
-  moveLeft = () => {
-    if (this.state.pageNumber === 1) return;
-    this.setState({pageNumber: 1});
-  };
-
-  moveRight = () => {
-    if (this.state.pageNumber === 2) return;
-    this.setState({pageNumber: 2});
+  move = e => {
+    if (e.target.name === 'right' && this.state.pageNumber === 1) {
+      this.setState({pageNumber: 2});
+    } else if (e.target.name === 'left' && this.state.pageNumber === 2) {
+      this.setState({pageNumber: 1});
+    }
   };
 
   render() {
@@ -28,12 +26,20 @@ class ResumePage extends Component {
           <Page pageNumber={this.state.pageNumber} className="resume-page" />
           <p>Page {this.state.pageNumber} of 2</p>
           <div className="button-container">
-            <div className="left-button" name="left" onClick={this.moveLeft}>
-              {'<'}
-            </div>
-            <div className="right-button" name="right" onClick={this.moveRight}>
-              {'>'}
-            </div>
+            <input
+              type="button"
+              className="left-button"
+              name="left"
+              onClick={this.move}
+              value="<"
+            />
+            <input
+              type="button"
+              className="right-button"
+              name="right"
+              onClick={this.move}
+              value=">"
+            />
           </div>
         </Document>
       </div>
