@@ -244,6 +244,16 @@
   height: auto !important;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.move-button {
+  font-size: 2rem;
+  margin: 0.7rem 1.5rem;
+}
+
 .projects-container {
   height: 100%;
   width: 100%;
