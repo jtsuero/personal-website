@@ -44,7 +44,7 @@ class ResumePage extends Component {
             />
           </div>
           <a href={resume} download="JTS_Resume">
-            <button className="download-button">Download Resume</button>
+            <button className="download-button">Download</button>
           </a>
         </Document>
       </div>

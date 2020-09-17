@@ -211,6 +211,7 @@
 .download-button {
   padding: 1rem;
   margin: 1.5rem;
+  background: none;
 }
 
 .burger div {
@@ -255,7 +256,7 @@
 }
 
 .move-button {
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 0.7rem 1.5rem;
 }
 
