@@ -116,6 +116,11 @@
   font-weight: bold;
   padding: 1.5rem 0;
   color: white;
+  text-decoration: none;
+}
+
+.home-name:hover {
+  text-decoration: underline;
 }
 
 .home-header {

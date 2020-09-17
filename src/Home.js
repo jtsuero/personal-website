@@ -9,9 +9,9 @@ class Home extends Component {
         <div className="home-background"></div>
         <div className="home-background-black"></div>
         <div className="home-intro">
-          <div className="home-name">
-            Full Stack Engineer based in Seattle, WA
-          </div>
+          <Link to="/resume" className="home-name">
+            <div>Full Stack Engineer based in Seattle, WA</div>
+          </Link>
           <Link to="/projects" className="home-header">
             I make cool products
           </Link>
