@@ -208,6 +208,11 @@
   display: none;
 }
 
+.download-button {
+  padding: 1rem;
+  margin: 1.5rem;
+}
+
 .burger div {
   width: 25px;
   height: 3px;
