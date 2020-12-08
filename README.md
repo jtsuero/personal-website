@@ -1,4 +1,6 @@
+## Setup
 
-npm install
+Clone repo and run following commands \
+`npm install`
 
-npm start
+`npm start`
