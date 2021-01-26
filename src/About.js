@@ -25,10 +25,9 @@ class About extends Component {
             <div className="skills-content">
               <div>
                 Although my professional career has been focused on Project
-                Management and Training, there has always been an itch to
-                program. Unable to shake the calling towards the Software
-                Engineering world, I spent nights and weekend building my
-                skillset.
+                Management, there has always been an itch to program. Unable to
+                shake the calling towards the Software Engineering world, I
+                spent nights and weekend building my skillset.
               </div>
               <div>
                 Turning an unshakeable passion into my career has been one of my
