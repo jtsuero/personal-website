@@ -23,12 +23,20 @@ class About extends Component {
           <div className="about-container">
             <div className="about-me-header">About Me</div>
             <div className="skills-content">
-              Although my professional career has been focused on Project
-              Management and Training, there has always been an itch to program.
-              While working at Genentech and Facebook, I built my skillset
-              through multiple personal projects and a supportive team of
-              engineers. I am hungry to build interesting projects and work with
-              teams that iterate quickly.
+              <div>
+                Although my professional career has been focused on Project
+                Management and Training, there has always been an itch to
+                program. Unable to shake the calling towards the Software
+                Engineering world, I spent nights and weekend building my
+                skillset.
+              </div>
+              <div>
+                Turning an unshakeable passion into my career has been one of my
+                proudest achievements thus far. Now as I continue to build upon
+                this momentum, I am continually leveling up by immersing myself
+                in growth minded surroundings. I look forward to building
+                impactful and cool products.
+              </div>
             </div>
           </div>
           <div className="about-container">
