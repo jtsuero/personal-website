@@ -9,12 +9,6 @@ class ContactButtons extends Component {
     return (
       <div className="contact-buttons">
         <div>
-          <a href={'mailto:jtsuero@gmail.com'}>
-            <FontAwesomeIcon icon={faEnvelope} className="contact-logo" />
-          </a>
-          <a href={'mailto:jtsuero@gmail.com'}>jtsuero@gmail.com</a>
-        </div>
-        <div>
           <a href="https://www.linkedin.com/in/jtsuero">
             <FontAwesomeIcon icon={faLinkedin} className="contact-logo" />
           </a>
